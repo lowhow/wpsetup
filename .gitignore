@@ -60,5 +60,5 @@ themes/
 !assets/index.php
 assets/img/*
 !assets/img/index.php
-data/
+!data/
 !data/index.php
