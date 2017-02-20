@@ -44,6 +44,14 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
+content/advanced-cache.php
+content/backup-db/
+content/backups/
+content/blogs.dir/
+content/cache/
+content/upgrade/
+content/uploads/
+content/wp-cache-config.php
 
 # Folders to ignore
 .hg
@@ -60,5 +68,5 @@ themes/
 !assets/index.php
 assets/img/*
 !assets/img/index.php
-!data/
+data/
 !data/index.php
