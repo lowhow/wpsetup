@@ -26,7 +26,12 @@
     				"fancyguy/webroot-installer": "1.0.0"
     			}
     		}
-    	}
+    	},
+        {
+            "type": "vcs",
+            "url": "https://github.com/lowhow/Blect_Theme.git"
+        }
+
     ],
     "require":
     {
@@ -42,7 +47,8 @@
 	    "wpackagist-plugin/advanced-cron-manager": ">=1.5",
 	    "wpackagist-plugin/members": ">=1.1.3",
 	    "wpackagist-plugin/woocommerce": ">=2.6.14",
-	    "wpackagist-plugin/post-duplicator": ">=2.20"
+	    "wpackagist-plugin/post-duplicator": ">=2.20",
+        "blect/blecttheme": "dev-master"
     },
     "extra":
     {
@@ -50,7 +56,8 @@
 	    "webroot-package": "wordpress",
 	    "installer-paths":
 	    {
-	    	"content/plugins/{$name}": ["type:wordpress-plugin"]
+	    	"content/plugins/{$name}": ["type:wordpress-plugin"],
+            "content/themes/{$name}": ["type:wordpress-theme"]
 	    }
 
 	}
