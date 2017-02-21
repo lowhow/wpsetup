@@ -39,7 +39,7 @@ gulp.task('wp:create', function(){
 	/**
 	 * Create database
 	 */
-	var shellCommand = '/Applications/MAMP/Library/bin/mysql -u'+wp_config.DB_USER+' -p'+wp_config.DB_PASSWORD+' -e "CREATE DATABASE gulptest DEFAULT CHARACTER SET '+wp_config.DB_CHARSET+' DEFAULt COLLATE '+wp_config.DB_COLLATE+'"';
+	var shellCommand = '/Applications/MAMP/Library/bin/mysql -u'+wp_config.DB_USER+' -p'+wp_config.DB_PASSWORD+' -e "CREATE DATABASE '+wp_config.DB_NAME+' DEFAULT CHARACTER SET '+wp_config.DB_CHARSET+' DEFAULt COLLATE '+wp_config.DB_COLLATE+'"';
 	gulp.src('').pipe(shell([shellCommand]));
 	console.log('\n\x1b[32m%s\x1b[0m', 'Database created!');
 });
