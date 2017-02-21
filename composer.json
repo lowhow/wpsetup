@@ -30,6 +30,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/lowhow/Blect_Theme.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://lowhow@bitbucket.org/lowhow/blect_wpplugin_gravityforms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://lowhow@bitbucket.org/lowhow/blect_wpplugin_acfpro.git"
         }
 
     ],
@@ -48,7 +56,9 @@
 	    "wpackagist-plugin/members": ">=1.1.3",
 	    "wpackagist-plugin/woocommerce": ">=2.6.14",
 	    "wpackagist-plugin/post-duplicator": ">=2.20",
-        "blect/blecttheme": "dev-master"
+	    "blect/gravityforms": "dev-master",
+	    "blect/acfpro": "dev-master",
+	    "blect/blecttheme": "dev-master"
     },
     "extra":
     {
@@ -56,8 +66,8 @@
 	    "webroot-package": "wordpress",
 	    "installer-paths":
 	    {
-	    	"content/plugins/{$name}": ["type:wordpress-plugin"],
-            "content/themes/{$name}": ["type:wordpress-theme"]
+		    "content/plugins/{$name}": ["type:wordpress-plugin"],
+		    "content/themes/{$name}": ["type:wordpress-theme"]
 	    }
 
 	}
