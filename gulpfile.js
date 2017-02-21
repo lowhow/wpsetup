@@ -1,7 +1,7 @@
 var wp_config = {
 	DB_NAME: 	'project_db',
 	DB_USER: 	'root',
-	DB_PASSWORD: '20070604',
+	DB_PASSWORD: 	'password',
 	WP_HOME: 	'http://dev.mysite.com'
 };
 
