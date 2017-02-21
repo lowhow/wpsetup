@@ -70,3 +70,4 @@ assets/img/*
 !assets/img/index.php
 data/
 !data/index.php
+node_modules
