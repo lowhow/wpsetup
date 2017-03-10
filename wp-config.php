@@ -72,10 +72,10 @@ $table_prefix = 'wpb_';
 define( 'WPLANG', '' );
 
 /* Custom WordPress URL. */
-define ( 'WP_HOME', 'http://dev.example.com' ); // no trailing slash please.
-define ( 'WP_SITEURL', WP_HOME . '/cms' );
-define ( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
-define ( 'WP_CONTENT_URL', WP_HOME . '/content' );
+define( 'WP_HOME', 'http://dev.example.com' ); // no trailing slash please.
+define( 'WP_SITEURL', WP_HOME . '/cms' );
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
+define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 
 /**
  * Never use define ( 'UPLOADS', 'wp-content/uploads' );
